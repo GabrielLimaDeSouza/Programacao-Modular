@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>16</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>224</x>
+      <y>112</y>
+      <w>480</w>
+      <h>256</h>
+    </coordinates>
+    <panel_attributes>Conta
+--
+- numeroDaConta : int 
+- saldo : float
+_- contador : int_
+--
++ Conta()
++ sacar(float valor) : void
++ transferir(Conta destino, float valor) : void
++ depositar(float valor) : void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
